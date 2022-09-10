@@ -73,3 +73,32 @@ input:hover {
     border: 1px solid #211d19;
     cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100vw;
+        font-size: 3vh;
+        margin-left: 0;
+        gap: 7vh;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    p{
+        width: 90vw;
+        font-size: 2vh;
+    }
+    .ol{
+        font-size: 4vw;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    input {
+        width: 20vw;
+        height: 5vh;
+    }
+}
